@@ -1,5 +1,5 @@
 resource "aws_amplify_app" "website" {
-  name       = var.domain_name
+  name       = format("bsky.%s", var.domain_name)
   repository = var.repository
 
   platform     = "WEB"
