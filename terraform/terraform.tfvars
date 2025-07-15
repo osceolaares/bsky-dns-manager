@@ -1,9 +1,7 @@
-namespace = "debauchee"
+namespace = "osceola"
 
 stage = "use1"
 
-repository = "https://github.com/ugns/route53-dns-manager"
+domain_name = "osceolacountyares.org"
 
-domain_name = "debauchee.link"
-
-comment = "Debauchery Society"
+comment = "Osceola County ARES"
