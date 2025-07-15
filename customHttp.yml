@@ -25,7 +25,7 @@ customHeaders:
         value: default-src 'self' https://accounts.google.com/gsi/; script-src 'self'
           https://accounts.google.com/gsi/client https://ssl.gstatic.com;
           connect-src 'self'
-          https://69arsn18rb.execute-api.us-east-1.amazonaws.com/prod/api/dns
+          https://69arsn18rb.execute-api.us-east-1.amazonaws.com/prod/api/
           https://accounts.google.com/gsi/; font-src 'self' https://fonts.gstatic.com;
           frame-src 'self' https://accounts.google.com/gsi/; img-src 'self'
           https://www.google.com https://lh3.googleusercontent.com; style-src
@@ -34,7 +34,7 @@ customHeaders:
         value: default-src 'self' https://accounts.google.com/gsi/; script-src 'self'
           https://accounts.google.com/gsi/client https://ssl.gstatic.com;
           connect-src 'self'
-          https://69arsn18rb.execute-api.us-east-1.amazonaws.com/prod/api/dns
+          https://69arsn18rb.execute-api.us-east-1.amazonaws.com/prod/api/
           https://accounts.google.com/gsi/; font-src 'self' https://fonts.gstatic.com;
           frame-src 'self' https://accounts.google.com/gsi/; img-src 'self'
           https://www.google.com https://lh3.googleusercontent.com; style-src
