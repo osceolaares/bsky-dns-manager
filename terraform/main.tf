@@ -1,5 +1,5 @@
 resource "aws_amplify_app" "website" {
-  name       = var.domain_name
+  name       = format("bsky.%s", var.domain_name)
   repository = var.repository
 
   platform     = "WEB"
@@ -28,11 +28,6 @@ resource "aws_amplify_domain_association" "website" {
   certificate_settings {
     custom_certificate_arn = module.acm_certificate.arn
     type                   = "CUSTOM"
-  }
-
-  sub_domain {
-    branch_name = aws_amplify_branch.main.branch_name
-    prefix      = ""
   }
 
   sub_domain {
